@@ -1,0 +1,19 @@
+.titleSQ { 
+    width: auto;
+    height: 350px;
+    background-color: pink;
+    align-content: center;
+}
+
+.profilepic {
+    width: 100px;
+    height: 100px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    
+}
