@@ -106,7 +106,7 @@ body {
     font-size: 18px;
 }
 
-/* About Me Section (Left Side) */
+/* About Me Section */
 .aboutme {
     width: 25%;
     background: #2e2e2e;
@@ -134,10 +134,51 @@ body {
 }
 
 .sp {
-    display: flex;
-    flex-direction: column;
     width: 65%;
-    padding: 30px;
     padding-left: 50px;
 
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.proj {
+    background-color: #F7CAC9;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.4);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 48%;
+}
+
+.proj:hover {
+    transform: scale(1.05);
+}
+
+.proj h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #6b3f4d;
+}
+
+.proj-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.proj p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
 }
