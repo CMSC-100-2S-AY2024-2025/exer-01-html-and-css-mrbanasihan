@@ -6,6 +6,7 @@
 **Degree Program** BS Computer Science <br/>
 
 ## Live Website Link: <br/>
+https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-mrbanasihan/
 
 ## Steps on how to create GitHub page <br/>
 1. Accept the assignment created specifically for the student. <br/>
